@@ -1,0 +1,38 @@
+.animated-list {
+    max-height: calc(100% - 66px);
+    overflow: auto;
+    width: 100%;
+    list-style-type: none;
+
+
+    #skeletons {
+        display: flex;
+        flex-direction: column;
+        padding: 8px 0;
+
+        .skeleton-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 16px;
+        }
+    }
+
+    .content {
+        margin: auto !important;
+    }
+
+    .avatar-container {
+        min-width: 70px !important;
+
+        .mid-avatar {
+            width: 60px !important;
+            height: 60px !important;
+        }
+    }
+
+    .MuiDivider-inset {
+        margin-left: 86px;
+    }
+}
